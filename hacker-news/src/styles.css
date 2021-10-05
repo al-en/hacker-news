@@ -1,0 +1,45 @@
+/* You can add global styles to this file, and also import other style files */
+
+/* @font-face {
+    font-family: 'Netnet';
+    src: url('../fonts/AvenirNextLTPro-Regular.otf');
+    font-weight: 400;
+    font-style: normal;
+
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+
+:root{
+    --fontBase: 'Balsamiq Sans', cursive;
+    --title: 400 58px/70px var(--fontBase);
+    --subtitle: 400 20px/28px var(--fontBase);
+    --headline1: bold 28px/37.35px var(--fontBase);
+    --body1-reg: 400 14px/24px var(--fontBase);
+    --body2-reg: 400 11.2px/15.3px var(--fontBase);
+    
+    --button: 600 14px/24px var(--fontBase);
+    --black:#000;/* rgb(15, 15, 15); */
+    --white:#FFF;
+    --red:#D22F26;
+    --grey:#999;
+    --dark-grey:#333;
+    --light-grey:#ccc;
+    --green:#71D074;
+
+}
+
+*{
+    margin:0;
+    padding: 0;
+}
+
+body{
+    font-family: var(--fontBase);
+}
+
+.wrapper{
+    max-width: 1024px;
+    margin:auto;
+    padding-block: 16px;
+}

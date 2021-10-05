@@ -1,0 +1,21 @@
+version: "3.8"
+
+services:
+  web:
+    container_name: hn-web
+    build: ./hacker-news
+    ports:
+      - "4200:80"
+  api:
+    container_name: hn-api
+    restart: always
+    build: ./api-hacker-news
+    ports:
+      - "4000:3000"
+    links:
+      - mongo
+  mongo:
+    container_name: mongohn
+    image: mongo
+    ports:
+      - "27018:27017"
