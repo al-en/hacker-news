@@ -1,6 +1,6 @@
 # Hacker News Application
 
-This application gets data from the [Hacker News API](https://hn.algolia.com/api/v1/search_by_date?query=nodejs) every 1 hour and stores in a local mongo database. This data finally shows in the frontend. 
+This application gets data from the [Hacker News API](https://hn.algolia.com/api/v1/search_by_date?query=nodejs) every 1 hour and stores in a local mongo database. This data finally is displayed in the frontend. 
 
 The frontend has been developed with Angular 12 and the backend with Nest.js.
 
